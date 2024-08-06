@@ -1,5 +1,3 @@
-Por supuesto, aquí tienes la prueba con una redacción mejorada:
-
 # Prueba para Consultor de Analítica
 
 El propósito de esta prueba es evaluar los conocimientos del candidato en la programación del lenguaje Python. Esta prueba está diseñada para ser completada en un máximo de una hora y media.
@@ -36,3 +34,7 @@ En esta etapa, se solicitarán nuevas características para esta pequeña aplica
 ## Evaluación
 
 El candidato presentará los resultados de su desarrollo en una breve reunión de 15 minutos, donde también se le entrevistará para conocer y que pueda explicar su desarrollo. Se harán preguntas sobre el código escrito, por lo que es importante tener el código a mano durante la entrevista para poder presentarlo.
+
+## Envio de la prueba
+
+Enviar el link del repositorio o la carpeta comprimida con la solucion al correo: o.riojas@riskgc.com 
