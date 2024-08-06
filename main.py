@@ -1,5 +1,5 @@
 import streamlit as st
-from web_scraping import scrape_books
+from w_scraping import scrape_books
 
 st.title("Books to Scrape")
 
