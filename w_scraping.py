@@ -72,6 +72,7 @@ def scrape_books() -> pd.DataFrame:
     # Convertir la lista de libros a un DataFrame y retornarlo
     return pd.DataFrame(books)
 
+    
 
 if __name__ == '__main__':
     # Ejecutar la función de scraping y guardar los resultados en un DataFrame
@@ -79,7 +80,10 @@ if __name__ == '__main__':
     
     # Guardar el DataFrame en un archivo CSV
     if not books_df.empty:
-        books_df.to_csv('books.csv', index=False)
-        print('Books saved to books.csv')
+        try:
+            books_df.to_csv('books.csv', index=False)
+            print('Books saved to books.csv')
+        except Exception as e:
+            print(f'Error al guardar el archivo CSV: {str(e)}')
     else:
         print('No se guardaron datos ya que no se encontraron libros.')
